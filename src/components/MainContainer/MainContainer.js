@@ -26,7 +26,7 @@ class MainContainer extends Component {
     };
 
     componentDidMount() {
-        API.getUsers(data)
+        API.getUsers()
             .then((res) => 
                 this.setState({
                     employees: res.data.results,
