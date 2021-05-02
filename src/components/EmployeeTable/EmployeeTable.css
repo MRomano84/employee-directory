@@ -2,8 +2,9 @@
     background-color: #32384d;
 }
 
-th {
+th { 
     color: white;
+    /* cursor: pointer; */
 }
 
 td.row-data {

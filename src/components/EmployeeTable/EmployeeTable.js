@@ -8,16 +8,16 @@ const EmployeeTable = (props) => {
                 <tr>
                     <th scope="col">Picture</th>
                     <th scope="col" data-field="name" data-sortable="true">
-                        <span onClick={() => props.onSort("name", "last", "first")}>Name</span>
+                        <span onClick={() => props.onSort("name", "last", "first")} style={{cursor:'pointer'}}>Name</span>
                     </th>
                     <th scope="col">
-                        <span onClick={() => props.onSort("phone")}>Phone</span>
+                        <span onClick={() => props.onSort("phone")} style={{cursor:'pointer'}}>Phone</span>
                     </th>
                     <th scope="col">
-                        <span onClick={() => props.onSort("email")}>Email</span>
+                        <span onClick={() => props.onSort("email")} style={{cursor:'pointer'}}>Email</span>
                     </th>
                     <th scope="col">
-                        <span onClick={() => props.onSort("dob", "date")}>DOB</span>
+                        <span onClick={() => props.onSort("dob", "date")} style={{cursor:'pointer'}}>DOB</span>
                     </th>
                 </tr>
             </thead>
