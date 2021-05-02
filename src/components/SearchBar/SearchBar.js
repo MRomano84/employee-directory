@@ -1,12 +1,13 @@
 import React from "react";
+import "./SearchBar.css";
 
 const SearchBar = (props) => {
     return (
-        <nav className="navbar justify-content-center">
-            <h4>Search Employees</h4>
-            <form className="form-inline m-2" onSubmit={props.handleFormSubmit}>
+        <nav className="navbar justify-content-center search-area">
+            <h2 className="search-header">Search Employees</h2>
+            <form className="form-inline m-4" onSubmit={props.handleFormSubmit}>
                 <input
-                    className="form-control"
+                    className="form-control-lg"
                     value={props.value}
                     name="search"
                     onChange={props.handleInputChange}

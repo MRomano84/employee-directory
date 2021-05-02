@@ -3,6 +3,7 @@ import SearchBar from "../SearchBar/SearchBar";
 import EmployeeTable from "../EmployeeTable/EmployeeTable";
 import Wrapper from "../Wrapper/Wrapper";
 import API from "../../utils/API";
+import "./MainContainer.css";
 
 // function Container(props) {
 //     return <div className="container" style={props.style}>{props.children}</div>;
