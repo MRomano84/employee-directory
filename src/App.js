@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./components/Navbar/Navbar";
+import Header from "./components/Header/Header";
 import Wrapper from "./components/Wrapper/Wrapper";
 import MainContainer from "./components/MainContainer/MainContainer";
 import Footer from "./components/Footer/Footer";
@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="main">
-      <Navbar />
+      <Header />
       <Wrapper>
         <MainContainer />
       </Wrapper>
