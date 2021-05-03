@@ -6,6 +6,7 @@
 ## Table of Contents
 
 * [Description](#Description)
+* [Deployed Link](#Deployed-Link)
 * [Technologies Used](#Technologies-Used)
 * [Installation](#Installation)
 * [Questions](#questions)
@@ -17,6 +18,11 @@ This application allows you see a directory of your employees. You can search us
 
 ----------------------------------
 ![screenshot](https://github.com/MRomano84/employee-directory/blob/main/src/assets/Capture1.PNG)
+
+## Deployed Link
+[Link to Live EMPLOYEE-DIRECTORY](https://mromano84.github.io/employee-directory/)
+
+----------------------------------
 
 ## Technologies Used
 -React   
